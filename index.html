@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yehor Ivanov | Indie Game Developer</title>
+    <meta name="description"
+        content="Official developer website of Yehor Ivanov. Published as Yehor Ivanov on the App Store and Grib Games on Google Play." />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+    <div class="bg-glow glow-3"></div>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">Yehor Ivanov</a>
+
+            <nav class="nav">
+                <a href="#games">Games</a>
+                <a href="#about">About</a>
+                <a href="#publishing">Publishing</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle theme" title="Toggle theme">
+                <span class="theme-toggle-icon">🌙</span>
+            </button>
+        </div>
+    </header>
+
+    <main id="home" class="container">
+        <section class="hero hero-home">
+            <div class="hero-left">
+                <div class="badge">Indie Game Developer</div>
+
+                <h1>
+                    Games with<br />
+                    clear ideas,<br />
+                    clean identity.
+                </h1>
+
+                <p class="hero-text">
+                    I create game projects focused on strong readability, pleasant UI,
+                    clear visual direction, and memorable gameplay concepts.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#games" class="btn btn-primary">View Games</a>
+                    <a href="#contact" class="btn btn-secondary">Contact</a>
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <div class="card">
+                    <p class="card-label">Focus</p>
+                    <div class="mini-box">Casual and arcade game development</div>
+                    <div class="mini-box">Unity prototypes and polished releases</div>
+                    <div class="mini-box">Minimal UI and strong game feel</div>
+                </div>
+
+                <div class="card accent-card">
+                    <p class="card-label">Publishing</p>
+                    <p class="goal-text">
+                        Published as <strong>Yehor Ivanov</strong> on the App Store and
+                        <strong>Grib Games</strong> on Google Play.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="games" class="section">
+            <div class="section-head">
+                <div>
+                    <p class="section-label">Games</p>
+                    <h2>Selected work</h2>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <div class="subsection-head">
+                    <h3>Released</h3>
+                    <p>Published projects and playable releases.</p>
+                </div>
+                <div id="releasedGames" class="projects-grid"></div>
+            </div>
+
+            <div class="subsection">
+                <div class="subsection-head">
+                    <h3>In Development</h3>
+                    <p>Projects currently in progress, testing, or draft stage.</p>
+                </div>
+                <div id="devGames" class="projects-grid"></div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-head">
+                <p class="section-label">About</p>
+                <h2>Developer profile</h2>
+            </div>
+
+            <div class="about-card">
+                <p>
+                    Yehor Ivanov is an indie game developer creating projects with a strong
+                    focus on clarity, mood, and memorable gameplay direction. The goal is
+                    not complexity for its own sake, but games that feel understandable,
+                    polished, and distinct.
+                </p>
+
+                <div class="about-grid">
+                    <div class="info-box">
+                        <div class="info-title">Tools</div>
+                        <div class="info-value">Unity, C#, UI/UX, Prototyping</div>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="info-title">Focus</div>
+                        <div class="info-value">Casual games, arcade systems, strategy concepts</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="publishing" class="section">
+            <div class="section-head">
+                <p class="section-label">Publishing</p>
+                <h2>Store identity</h2>
+            </div>
+
+            <div class="about-card">
+                <p>
+                    Projects are currently published under different store names.
+                    On the <strong>App Store</strong>, the developer name is
+                    <strong>Yehor Ivanov</strong>. On <strong>Google Play</strong>,
+                    the publishing name is <strong>Grib Games</strong>.
+                </p>
+
+                <div class="about-grid">
+                    <div class="info-box">
+                        <div class="info-title">App Store</div>
+                        <div class="info-value">Yehor Ivanov</div>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="info-title">Google Play</div>
+                        <div class="info-value">Grib Games</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="contact-card">
+                <p class="section-label">Contact</p>
+                <h2>Let’s talk</h2>
+                <p class="contact-text">
+                    For collaborations, store-related communication, platform opportunities,
+                    or general contact, reach out here.
+                </p>
+
+                <div class="contact-grid">
+                    <a class="contact-box" href="mailto:yigorka812@gmail.com">
+                        <div class="info-title">Email</div>
+                        <div class="info-value">yigorka812@gmail.com</div>
+                    </a>
+
+                    <div class="contact-box">
+                        <div class="info-title">Website</div>
+                        <div class="info-value">yehorivanov.com</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="games.js"></script>
+    <script>
+        function setupTheme() {
+            const body = document.body;
+            const themeToggle = document.getElementById("themeToggle");
+            const themeIcon = document.querySelector(".theme-toggle-icon");
+            const savedTheme = localStorage.getItem("theme");
+
+            if (savedTheme === "dark") {
+                body.classList.add("dark-theme");
+                themeIcon.textContent = "☀️";
+            } else {
+                themeIcon.textContent = "🌙";
+            }
+
+            themeToggle.addEventListener("click", () => {
+                body.classList.toggle("dark-theme");
+
+                if (body.classList.contains("dark-theme")) {
+                    localStorage.setItem("theme", "dark");
+                    themeIcon.textContent = "☀️";
+                } else {
+                    localStorage.setItem("theme", "light");
+                    themeIcon.textContent = "🌙";
+                }
+            });
+        }
+
+        function createGameCard(game) {
+            const card = document.createElement("article");
+            card.className = "project-card game-card";
+
+            const platformBadges = game.platforms
+                .map(platform => `<span class="platform-pill">${platform}</span>`)
+                .join("");
+
+            const genreBadges = game.tags
+                .map(tag => `<span>${tag}</span>`)
+                .join("");
+
+            const statusClass = game.statusType === "released"
+                ? "status released"
+                : "status development";
+
+            card.innerHTML = `
+        <a class="game-card-link" href="game.html?slug=${game.slug}">
+          <div class="game-thumb" style="background:${game.thumbGradient};">
+            <div class="game-thumb-inner">
+              ${game.image
+                    ? `<img
+                      src="${game.image}"
+                      alt="${game.title} icon"
+                      class="game-icon"
+                      onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                    />
+                    <div class="game-thumb-fallback" style="display:none;">${game.shortTitle}</div>`
+                    : `<div class="game-thumb-fallback">${game.shortTitle}</div>`
+                }
+            </div>
+          </div>
+
+          <div class="project-top">
+            <h3>${game.title}</h3>
+            <span class="${statusClass}">${game.statusLabel}</span>
+          </div>
+
+          <p>${game.shortDescription}</p>
+
+          <div class="platform-pills">${platformBadges}</div>
+          <div class="tags">${genreBadges}</div>
+
+          <div class="view-details">View Details →</div>
+        </a>
+      `;
+
+            return card;
+        }
+
+        function renderGames() {
+            const releasedContainer = document.getElementById("releasedGames");
+            const devContainer = document.getElementById("devGames");
+
+            const releasedGames = GAMES.filter(g => g.statusType === "released");
+            const devGames = GAMES.filter(g => g.statusType !== "released");
+
+            releasedGames.forEach(game => {
+                releasedContainer.appendChild(createGameCard(game));
+            });
+
+            devGames.forEach(game => {
+                devContainer.appendChild(createGameCard(game));
+            });
+        }
+
+        setupTheme();
+        renderGames();
+    </script>
+</body>
+
+</html>

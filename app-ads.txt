@@ -147,3 +147,4 @@ lunamedia.io, 2fdb16a1-5025-4c41-9b17-e01e47ebc8b4, RESELLER, 524ecb396915caaf
 lijit.com, 528770, RESELLER, fafdf38b16bf6b2b
 blueseasx.com, 203625, RESELLER
 toponad.com, 165535463cfb70, RESELLER, 1d49fe424a1a456d
+google.com, pub-1688850575429881, DIRECT, f08c47fec0942fa0

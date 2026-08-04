@@ -208,5 +208,28 @@ const GAMES = [
     googlePlayUrl: "",
     appStoreUrl: "",
     privacyUrl: "privacy-gomoku-capture-go.html"
+  },
+  {
+    slug: "boxiko",
+    title: "Boxiko",
+    shortTitle: "BX",
+    image: "images/boxiko.jpg",
+    thumbGradient: "linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%)",
+    statusType: "released",
+    statusLabel: "Released",
+    statusDescription: "Currently published and available as a released project.",
+    shortDescription: "A mobile app by Grib Games & Yehor Ivanov.",
+    description: "A mobile application focused on delivering a great user experience, operated by Grib Games & Yehor Ivanov.",
+    longDescription: "Boxiko is a mobile application developed and operated by Grib Games & Yehor Ivanov.",
+    tags: ["Mobile", "App"],
+    platforms: ["Google Play", "App Store"],
+    publisherNames: [
+      { store: "Google Play", name: "Grib Games" },
+      { store: "App Store", name: "Yehor Ivanov" }
+    ],
+    googlePlayUrl: "#",
+    appStoreUrl: "#",
+    privacyUrl: "privacy-boxiko.html",
+    termsUrl: "terms-boxiko.html"
   }
 ];

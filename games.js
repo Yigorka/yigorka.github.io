@@ -1,5 +1,28 @@
 const GAMES = [
   {
+    slug: "mushroomy",
+    title: "Mushroomy",
+    shortTitle: "M",
+    image: "images/mushroomy.jpg",
+    thumbGradient: "linear-gradient(135deg, #e9efdf 0%, #a9c78f 100%)",
+    statusType: "development",
+    statusLabel: "Coming Soon",
+    statusDescription: "Currently being prepared for release on the App Store.",
+    shortDescription: "A mushroom calendar, species guide, photo journal, and foraging companion for iPhone.",
+    description: "Mushroomy helps you explore mushroom seasons, browse species, check foraging conditions, and keep a personal photo calendar.",
+    longDescription: "Mushroomy is an iOS companion for mushroom enthusiasts. It combines a seasonal calendar, species reference, local foraging forecasts, reminders, and a personal photo calendar in a clean native iPhone experience.",
+    tags: ["iOS", "Mushrooms", "Foraging", "SwiftUI"],
+    platforms: ["App Store"],
+    publisherNames: [
+      { store: "App Store", name: "Yehor Ivanov" }
+    ],
+    googlePlayUrl: "",
+    appStoreUrl: "",
+    privacyUrl: "privacy-mushroomy.html",
+    termsUrl: "terms-mushroomy.html",
+    pageUrl: "mushroomy.html"
+  },
+  {
     slug: "tap-tap-seed",
     title: "Tap Tap Seed",
     shortTitle: "TTS",

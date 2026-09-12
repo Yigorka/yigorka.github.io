@@ -222,7 +222,7 @@
                 : "status development";
 
             card.innerHTML = `
-        <a class="game-card-link" href="game.html?slug=${game.slug}">
+        <a class="game-card-link" href="${game.pageUrl || `game.html?slug=${game.slug}`}">
           <div class="game-thumb" style="background:${game.thumbGradient};">
             <div class="game-thumb-inner">
               ${game.image

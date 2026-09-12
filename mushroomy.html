@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mushroomy | Mushroom Calendar for iPhone</title>
+    <meta name="description" content="Mushroomy is a native iPhone mushroom calendar, species guide, foraging forecast, reminders, and personal photo journal by Yehor Ivanov." />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+    <div class="bg-glow glow-3"></div>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">Yehor Ivanov</a>
+            <nav class="nav">
+                <a href="index.html#games">Projects</a>
+                <a href="privacy-mushroomy.html">Privacy</a>
+                <a href="terms-mushroomy.html">Terms</a>
+            </nav>
+            <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle theme" title="Toggle theme">
+                <span class="theme-toggle-icon">🌙</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="container game-page">
+        <div class="back-link-wrap">
+            <a class="back-link" href="index.html#games">← Back to projects</a>
+        </div>
+
+        <section class="game-hero">
+            <div class="game-hero-media" style="background:linear-gradient(135deg, #e9efdf 0%, #a9c78f 100%);">
+                <div class="game-hero-media-inner">
+                    <img src="images/mushroomy.jpg" alt="Mushroomy app icon" class="game-hero-icon"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                    <div class="game-hero-fallback" style="display:none; align-items:center; justify-content:center; font-size:72px; font-weight:800;">M</div>
+                </div>
+            </div>
+
+            <div class="game-hero-info mushroomy-accent">
+                <div class="badge">Coming Soon on the App Store</div>
+                <h1>Mushroomy</h1>
+                <p class="hero-text">
+                    A native iPhone companion for mushroom enthusiasts. Explore seasonal species,
+                    check local foraging conditions, save your finds in a photo calendar, and plan
+                    better days in the woods.
+                </p>
+
+                <div class="platform-pills">
+                    <span class="platform-pill">iPhone</span>
+                    <span class="platform-pill">App Store</span>
+                    <span class="platform-pill">SwiftUI</span>
+                </div>
+
+                <div class="tags tags-large">
+                    <span>Mushroom Calendar</span>
+                    <span>Species Guide</span>
+                    <span>Forecasts</span>
+                    <span>Photo Journal</span>
+                </div>
+
+                <div class="store-buttons">
+                    <span class="btn btn-disabled">App Store page coming soon</span>
+                    <a class="btn btn-secondary" href="privacy-mushroomy.html">Privacy Policy</a>
+                    <a class="btn btn-secondary" href="terms-mushroomy.html">Terms of Use</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section game-details-section">
+            <div class="section-head">
+                <div>
+                    <p class="section-label">Mushroomy</p>
+                    <h2>What the app does</h2>
+                </div>
+            </div>
+
+            <div class="details-grid">
+                <div class="details-card">
+                    <h3>Seasonal calendar</h3>
+                    <p>Browse mushroom activity through the year and use the calendar as a planning aid for your own foraging trips.</p>
+                </div>
+
+                <div class="details-card">
+                    <h3>Species reference</h3>
+                    <p>Explore a growing reference collection with names, seasons, basic characteristics, and educational illustrations.</p>
+                </div>
+
+                <div class="details-card">
+                    <h3>Foraging conditions</h3>
+                    <p>Use weather-based indicators and reminders to identify potentially interesting days to check local habitats.</p>
+                </div>
+
+                <div class="details-card">
+                    <h3>Photo calendar</h3>
+                    <p>Keep a personal visual record of your mushroom finds and memorable days directly on your device.</p>
+                </div>
+
+                <div class="details-card full-width safety-notice">
+                    <h3>⚠️ Important safety notice</h3>
+                    <p>
+                        Mushroomy is an educational and planning companion — <strong>not a mushroom identification,
+                        medical, food-safety, or edibility decision tool</strong>. Never eat, taste, handle, or prepare a
+                        mushroom based only on information, forecasts, names, descriptions, photos, icons, or illustrations
+                        shown in the app. Mushroom appearance varies widely, dangerous species can resemble edible species,
+                        and the app's illustrations may be simplified, stylized, incomplete, or inaccurate.
+                    </p>
+                    <p style="margin-top:12px;">
+                        Always verify any mushroom using multiple authoritative sources and, when edibility matters,
+                        consult a qualified local mycologist or other competent expert. The decision to collect, handle,
+                        prepare, or consume any mushroom is solely the user's responsibility.
+                    </p>
+                </div>
+
+                <div class="details-card full-width">
+                    <h3>Mushroomy PRO</h3>
+                    <p>
+                        Optional auto-renewable subscriptions unlock the full species database, unlimited photo-calendar
+                        storage, and additional PRO features. Subscription pricing and eligibility are shown in the app
+                        using information provided by Apple. Purchases and subscription management are handled through the App Store.
+                    </p>
+                </div>
+
+                <div class="details-card full-width">
+                    <h3>Developer</h3>
+                    <div class="meta-grid">
+                        <div class="meta-box">
+                            <div class="info-title">App Store publisher</div>
+                            <div class="info-value">Yehor Ivanov</div>
+                        </div>
+                        <div class="meta-box">
+                            <div class="info-title">Contact</div>
+                            <div class="info-value"><a class="inline-link" href="mailto:yigorka812@gmail.com">yigorka812@gmail.com</a></div>
+                        </div>
+                    </div>
+                    <div class="app-legal-links">
+                        <a class="btn btn-secondary" href="privacy-mushroomy.html">Privacy Policy</a>
+                        <a class="btn btn-secondary" href="terms-mushroomy.html">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+    const body = document.body;
+    const themeToggle = document.getElementById("themeToggle");
+    const themeIcon = document.querySelector(".theme-toggle-icon");
+    if (localStorage.getItem("theme") === "dark") {
+        body.classList.add("dark-theme");
+        themeIcon.textContent = "☀️";
+    }
+    themeToggle.addEventListener("click", () => {
+        body.classList.toggle("dark-theme");
+        if (body.classList.contains("dark-theme")) {
+            localStorage.setItem("theme", "dark");
+            themeIcon.textContent = "☀️";
+        } else {
+            localStorage.setItem("theme", "light");
+            themeIcon.textContent = "🌙";
+        }
+    });
+</script>
+</body>
+</html>

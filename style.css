@@ -820,3 +820,87 @@ img {
         font-size: 16px;
     }
 }
+
+/* Mushroomy landing & legal pages */
+.mushroomy-accent {
+    background: linear-gradient(135deg, rgba(112, 143, 83, 0.18), rgba(195, 216, 166, 0.22)), var(--panel);
+}
+
+.feature-list,
+.legal-list {
+    margin: 14px 0 0;
+    padding-left: 22px;
+    color: var(--muted);
+    line-height: 1.85;
+}
+
+.feature-list li,
+.legal-list li {
+    margin: 7px 0;
+}
+
+.safety-notice {
+    border: 1px solid color-mix(in srgb, #c26a2b 38%, var(--border));
+    background: linear-gradient(135deg, rgba(194, 106, 43, 0.12), rgba(240, 180, 86, 0.08)), var(--panel);
+}
+
+.safety-notice h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.legal-content {
+    line-height: 1.85;
+    color: var(--muted);
+}
+
+.legal-content h3 {
+    color: var(--text);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.legal-content p {
+    margin: 12px 0;
+}
+
+.legal-highlight {
+    margin: 18px 0 24px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid color-mix(in srgb, #c26a2b 38%, var(--border));
+    background: linear-gradient(135deg, rgba(194, 106, 43, 0.12), rgba(240, 180, 86, 0.08));
+    color: var(--text);
+}
+
+.legal-highlight strong {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.legal-meta {
+    margin-top: 28px;
+    padding-top: 18px;
+    border-top: 1px solid var(--border);
+    color: var(--soft);
+    font-size: 13px;
+}
+
+.inline-link {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.app-legal-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+@media (max-width: 720px) {
+    .legal-highlight {
+        padding: 16px;
+    }
+}

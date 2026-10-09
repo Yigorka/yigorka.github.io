@@ -1,28 +1,5 @@
 const GAMES = [
   {
-    slug: "mushroomy",
-    title: "Mushroomy",
-    shortTitle: "M",
-    image: "images/mushroomy.jpg",
-    thumbGradient: "linear-gradient(135deg, #e9efdf 0%, #a9c78f 100%)",
-    statusType: "development",
-    statusLabel: "Coming Soon",
-    statusDescription: "Currently being prepared for release on the App Store.",
-    shortDescription: "A mushroom calendar, species guide, photo journal, and foraging companion for iPhone.",
-    description: "Mushroomy helps you explore mushroom seasons, browse species, check foraging conditions, and keep a personal photo calendar.",
-    longDescription: "Mushroomy is an iOS companion for mushroom enthusiasts. It combines a seasonal calendar, species reference, local foraging forecasts, reminders, and a personal photo calendar in a clean native iPhone experience.",
-    tags: ["iOS", "Mushrooms", "Foraging", "SwiftUI"],
-    platforms: ["App Store"],
-    publisherNames: [
-      { store: "App Store", name: "Yehor Ivanov" }
-    ],
-    googlePlayUrl: "",
-    appStoreUrl: "",
-    privacyUrl: "privacy-mushroomy.html",
-    termsUrl: "terms-mushroomy.html",
-    pageUrl: "mushroomy.html"
-  },
-  {
     slug: "tap-tap-seed",
     title: "Tap Tap Seed",
     shortTitle: "TTS",
@@ -254,5 +231,29 @@ const GAMES = [
     appStoreUrl: "#",
     privacyUrl: "privacy-boxiko.html",
     termsUrl: "terms-boxiko.html"
+  },
+  {
+    slug: "snake-words",
+    title: "Snake Words",
+    shortTitle: "SW",
+    image: "",
+    thumbGradient: "linear-gradient(135deg, #f8f4eb 0%, #b8d9a1 100%)",
+    statusType: "development",
+    statusLabel: "In Development",
+    statusDescription: "Currently in development for mobile devices.",
+    shortDescription: "Guide a snake, collect letters, and complete words.",
+    description: "A casual word puzzle where you guide a snake through the board to collect letters in the right order.",
+    longDescription: "Snake Words combines classic snake movement with word puzzles. Collect letters, complete words across themed levels, and plan your route around obstacles.",
+    tags: ["Casual", "Word Puzzle", "Snake"],
+    platforms: ["App Store", "Google Play"],
+    publisherNames: [
+      { store: "App Store", name: "Yehor Ivanov" },
+      { store: "Google Play", name: "Grib Games" }
+    ],
+    googlePlayUrl: "",
+    appStoreUrl: "",
+    privacyUrl: "privacy-snake-words.html",
+    termsUrl: "terms-snake-words.html",
+    termsLabel: "User Agreement"
   }
 ];

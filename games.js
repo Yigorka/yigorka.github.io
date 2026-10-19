@@ -255,5 +255,29 @@ const GAMES = [
     privacyUrl: "privacy-snake-words.html",
     termsUrl: "terms-snake-words.html",
     termsLabel: "User Agreement"
+  },
+  {
+    slug: "simple-wars",
+    title: "Simple Wars",
+    shortTitle: "SW",
+    image: "images/simple-wars.png",
+    thumbGradient: "linear-gradient(135deg, #102c43 0%, #1d455b 100%)",
+    statusType: "development",
+    statusLabel: "In Development",
+    statusDescription: "Currently in development for Android and iOS.",
+    shortDescription: "Choose a country, build your economy, and lead your armies across the map.",
+    description: "A mobile strategy game about managing your country, developing its army, and expanding your territory.",
+    longDescription: "Simple Wars combines readable political maps, moving front lines, country management, and battles against computer-controlled opponents. Choose a scenario and country, manage resources and upgrades, and lead your campaign across the map.",
+    tags: ["Strategy", "Mobile", "Unity"],
+    platforms: ["Google Play", "App Store"],
+    publisherNames: [
+      { store: "Google Play", name: "Grib Games" },
+      { store: "App Store", name: "Yehor Ivanov" }
+    ],
+    googlePlayUrl: "",
+    appStoreUrl: "",
+    privacyUrl: "privacy-simple-wars.html",
+    termsUrl: "terms-simple-wars.html",
+    termsLabel: "User Agreement"
   }
 ];

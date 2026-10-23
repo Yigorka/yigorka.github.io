@@ -1,5 +1,28 @@
 const GAMES = [
   {
+    slug: "bluenote",
+    title: "BlueNote",
+    shortTitle: "BN",
+    image: "",
+    thumbGradient: "linear-gradient(135deg, #396d9a 0%, #143b60 100%)",
+    statusType: "development",
+    statusLabel: "In Development",
+    statusDescription: "An iPhone and iPad app currently being prepared for its first App Store release.",
+    shortDescription: "A quiet blue space for notes, lists, and everyday tasks.",
+    description: "A minimalist notes and to-do app with a calm blue interface, simple gestures, reminders, and iCloud sync.",
+    longDescription: "BlueNote keeps everyday notes and tasks in a clean, readable workspace. Organize lists, add descriptions and priorities, dictate text, set reminders, and protect access with Face ID on supported devices. BlueNote Pro adds recurring tasks, subtasks, and interactive Home Screen widgets.",
+    tags: ["Productivity", "Notes", "To-Do"],
+    platforms: ["App Store"],
+    publisherNames: [
+      { store: "App Store", name: "Yehor Ivanov" }
+    ],
+    googlePlayUrl: "",
+    appStoreUrl: "",
+    privacyUrl: "privacy-bluenote.html",
+    termsUrl: "terms-bluenote.html",
+    termsLabel: "User Agreement"
+  },
+  {
     slug: "tap-tap-seed",
     title: "Tap Tap Seed",
     shortTitle: "TTS",
